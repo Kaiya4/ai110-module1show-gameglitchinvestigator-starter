@@ -26,18 +26,23 @@ It wrote the code, ran away, and now the game is unplayable.
 ## 📝 Document Your Experience
 
 - [ ] Describe the game's purpose.
+To guess the secret number in as little tries as possible, getting the best score.
 - [ ] Detail which bugs you found.
+Hint logic were reverse, string and number checks were wrong. 
 - [ ] Explain what fixes you applied.
+Fixed the logic of the hints as well as the number compares.
 
 ## 📸 Demo Walkthrough
 
 Describe your fixed game in numbered steps so a reader can follow along without watching a video:
 
-1. <!-- Describe this step -->
-2. <!-- Describe this step -->
-3. <!-- Describe this step -->
-4. <!-- Describe this step -->
-5. <!-- Add more steps as needed -->
+### 📸 Demo Walkthrough
+
+1. User selects "Hard" mode → range correctly updates to 1-200.
+2. User enters a guess of 100 → game returns "Too High, 📉 Go LOWER!".
+3. User enters a guess of 50 on attempt #2 → math processes without crashing.
+4. Score and attempts left update accurately after each guess.
+5. Game ends with balloons and a final score upon the correct guess.
 
 **Screenshot** *(optional)*: <!-- Insert a screenshot of your fixed, winning game here -->
 
@@ -47,6 +52,12 @@ Describe your fixed game in numbered steps so a reader can follow along without 
 # Paste your pytest output here, e.g.:
 # pytest tests/
 # ========================= X passed in 0.XXs =========================
+collected 3 items                                                                                    
+
+tests/test_game_logic.py ...                                                                   [100%]
+
+========================================= 3 passed in 0.01s ==========================================
+
 ```
 
 ## 🚀 Stretch Features
