@@ -33,7 +33,7 @@ To guess the secret number in as little tries as possible, getting the best scor
 Hint logic were reverse, string and number checks were wrong. 
 - [ ] Explain what fixes you applied.
 
-Fixed the logic of the hints as well as the number compares.
+Fixed the logic of the hints as well as the number compares so it would return the correct hint. It was very frustrating when I'd put the lowest number and would still give me the go lower hint.
 
 ## 📸 Demo Walkthrough
 
