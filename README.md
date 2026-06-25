@@ -26,10 +26,13 @@ It wrote the code, ran away, and now the game is unplayable.
 ## 📝 Document Your Experience
 
 - [ ] Describe the game's purpose.
+
 To guess the secret number in as little tries as possible, getting the best score.
 - [ ] Detail which bugs you found.
+
 Hint logic were reverse, string and number checks were wrong. 
 - [ ] Explain what fixes you applied.
+
 Fixed the logic of the hints as well as the number compares.
 
 ## 📸 Demo Walkthrough
